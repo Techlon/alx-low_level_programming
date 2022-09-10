@@ -3,9 +3,9 @@
 #include  <stdio.h>
 
 /** 
- * main - Determines if a number is positive, negative or zero.
- *
- * Return: Always 0 (Success) 
+ * main - main block
+ * Description: Print statements based on the last digit of the random number.
+ * Return: 0
  */
 
 int main(void)
