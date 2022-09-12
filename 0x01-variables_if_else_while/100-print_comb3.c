@@ -12,18 +12,19 @@
  * You can only use putchar five times maximum in your code
  * You are not allowed to use any variable of type char
  * All your code should be in the main function
+ *Return : 0
  */
 
 int main(void)
 {
-	int i, j, k
+	int i, j, k;
 	
-	i = o
+	i = 0;
 
 	while (i < 100)
 	{
-		j = i % 10
-		k = i / 10
+		j = i % 10;
+		k = i / 10;
 
 		if (k < j)
 		{
