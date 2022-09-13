@@ -7,7 +7,7 @@
  * Return : 0
  */
 
-char fay()
+int main(void)
 {
 	char gre[] = "_putchar";
 	int i = 0;
