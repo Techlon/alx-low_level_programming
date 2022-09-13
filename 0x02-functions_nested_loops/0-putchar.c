@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	char grev[] = "_putchar";
+	char putchar[] = "_putchar";
 	int i = 0;
 
-	while (grev[i] != '\0')
+	while (putchar[i] != '\0')
 	{
-		char(grev[i]);
+		char(putchar[i]);
 		i++;
 	}
 	_putchar('\n');
