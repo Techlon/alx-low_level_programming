@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
  * main - main Block
@@ -9,8 +9,16 @@
 
 char fay()
 {
-	char gre = '_putchar';
-		putchar(gre);
+	char gre = "_putchar";
+	int i = 0;
+
+	while (gre[i] != '\0')
+	{
+		_putchar(gre[i]);
+		i++;
+	}
+	_putchar('\n);
+
 	return (0);
 }
 
