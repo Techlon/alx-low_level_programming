@@ -9,15 +9,15 @@
 
 int main(void)
 {
-	char gre[] = "_putchar";
+	char grev[] = "_putchar";
 	int i = 0;
 
-	while (gre[i] != '\0')
+	while (grev[i] != '\0')
 	{
-		_putchar(gre[i]);
+		char(grev[i]);
 		i++;
 	}
-	_putchar('\n);
+	_putchar('\n');
 
 	return (0);
 }
