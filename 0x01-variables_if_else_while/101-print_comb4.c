@@ -9,7 +9,8 @@
  * print only the smallest combination of 3 digits.
  * Numbers should be printed in ascending order.
  * You can only use `putchar` to print to console.
- * You can only use `putchar` up to 6 timesYou are not allowed to use any variables of type `char`.
+ * You can only use `putchar` up to 6 times
+ * You are not allowed to use any variables of type `char`.
  * Return: 0
  */
 
