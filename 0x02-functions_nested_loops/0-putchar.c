@@ -9,7 +9,7 @@
 
 char fay()
 {
-	char gre = "_putchar";
+	char gre[] = "_putchar";
 	int i = 0;
 
 	while (gre[i] != '\0')
