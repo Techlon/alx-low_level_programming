@@ -7,7 +7,7 @@
  */
 int _islower(int c)/*Description: Function returns 0 or 1*/
 {
-	(c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
