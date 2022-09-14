@@ -2,12 +2,12 @@
 
 /**
  * print_last_digit - entry position
- * Returns the value of the last digit
- * Retun: int 0
+ * @ab: the value of the last digit
+ * Return: int 0
  */
 
 int print_last_digit(int ab)
 {
-	return ab % 10;
+	return (ab % 10);
 }
 
